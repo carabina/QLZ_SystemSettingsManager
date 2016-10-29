@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC483B041DC4DBD800918241 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC483B031DC4DBD800918241 /* main.m */; };
+		EC483B071DC4DBD800918241 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC483B061DC4DBD800918241 /* AppDelegate.m */; };
+		EC483B0A1DC4DBD800918241 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC483B091DC4DBD800918241 /* ViewController.m */; };
+		EC483B0D1DC4DBD800918241 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC483B0B1DC4DBD800918241 /* Main.storyboard */; };
+		EC483B0F1DC4DBD800918241 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC483B0E1DC4DBD800918241 /* Assets.xcassets */; };
+		EC483B121DC4DBD800918241 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC483B101DC4DBD800918241 /* LaunchScreen.storyboard */; };
+		EC483B1D1DC4DBD800918241 /* QLZ_SystemSettingsManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC483B1C1DC4DBD800918241 /* QLZ_SystemSettingsManagerTests.m */; };
+		EC483B281DC4DBD800918241 /* QLZ_SystemSettingsManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC483B271DC4DBD800918241 /* QLZ_SystemSettingsManagerUITests.m */; };
+		EC483B381DC4DC0700918241 /* QLZ_SystemSettingsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EC483B371DC4DC0700918241 /* QLZ_SystemSettingsManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC483B191DC4DBD800918241 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC483AF71DC4DBD800918241 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC483AFE1DC4DBD800918241;
+			remoteInfo = QLZ_SystemSettingsManager;
+		};
+		EC483B241DC4DBD800918241 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC483AF71DC4DBD800918241 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC483AFE1DC4DBD800918241;
+			remoteInfo = QLZ_SystemSettingsManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC483AFF1DC4DBD800918241 /* QLZ_SystemSettingsManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QLZ_SystemSettingsManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC483B031DC4DBD800918241 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC483B051DC4DBD800918241 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC483B061DC4DBD800918241 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC483B081DC4DBD800918241 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC483B091DC4DBD800918241 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC483B0C1DC4DBD800918241 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC483B0E1DC4DBD800918241 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC483B111DC4DBD800918241 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC483B131DC4DBD800918241 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC483B181DC4DBD800918241 /* QLZ_SystemSettingsManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QLZ_SystemSettingsManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC483B1C1DC4DBD800918241 /* QLZ_SystemSettingsManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLZ_SystemSettingsManagerTests.m; sourceTree = "<group>"; };
+		EC483B1E1DC4DBD800918241 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC483B231DC4DBD800918241 /* QLZ_SystemSettingsManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QLZ_SystemSettingsManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC483B271DC4DBD800918241 /* QLZ_SystemSettingsManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLZ_SystemSettingsManagerUITests.m; sourceTree = "<group>"; };
+		EC483B291DC4DBD800918241 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC483B361DC4DC0700918241 /* QLZ_SystemSettingsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QLZ_SystemSettingsManager.h; sourceTree = "<group>"; };
+		EC483B371DC4DC0700918241 /* QLZ_SystemSettingsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLZ_SystemSettingsManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC483AFC1DC4DBD800918241 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC483B151DC4DBD800918241 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC483B201DC4DBD800918241 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC483AF61DC4DBD800918241 = {
+			isa = PBXGroup;
+			children = (
+				EC483B011DC4DBD800918241 /* QLZ_SystemSettingsManager */,
+				EC483B1B1DC4DBD800918241 /* QLZ_SystemSettingsManagerTests */,
+				EC483B261DC4DBD800918241 /* QLZ_SystemSettingsManagerUITests */,
+				EC483B001DC4DBD800918241 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC483B001DC4DBD800918241 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC483AFF1DC4DBD800918241 /* QLZ_SystemSettingsManager.app */,
+				EC483B181DC4DBD800918241 /* QLZ_SystemSettingsManagerTests.xctest */,
+				EC483B231DC4DBD800918241 /* QLZ_SystemSettingsManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC483B011DC4DBD800918241 /* QLZ_SystemSettingsManager */ = {
+			isa = PBXGroup;
+			children = (
+				EC483B051DC4DBD800918241 /* AppDelegate.h */,
+				EC483B061DC4DBD800918241 /* AppDelegate.m */,
+				EC483B081DC4DBD800918241 /* ViewController.h */,
+				EC483B091DC4DBD800918241 /* ViewController.m */,
+				EC483B351DC4DC0000918241 /* SystemSettingsManager */,
+				EC483B0B1DC4DBD800918241 /* Main.storyboard */,
+				EC483B0E1DC4DBD800918241 /* Assets.xcassets */,
+				EC483B101DC4DBD800918241 /* LaunchScreen.storyboard */,
+				EC483B131DC4DBD800918241 /* Info.plist */,
+				EC483B021DC4DBD800918241 /* Supporting Files */,
+			);
+			path = QLZ_SystemSettingsManager;
+			sourceTree = "<group>";
+		};
+		EC483B021DC4DBD800918241 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC483B031DC4DBD800918241 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC483B1B1DC4DBD800918241 /* QLZ_SystemSettingsManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC483B1C1DC4DBD800918241 /* QLZ_SystemSettingsManagerTests.m */,
+				EC483B1E1DC4DBD800918241 /* Info.plist */,
+			);
+			path = QLZ_SystemSettingsManagerTests;
+			sourceTree = "<group>";
+		};
+		EC483B261DC4DBD800918241 /* QLZ_SystemSettingsManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC483B271DC4DBD800918241 /* QLZ_SystemSettingsManagerUITests.m */,
+				EC483B291DC4DBD800918241 /* Info.plist */,
+			);
+			path = QLZ_SystemSettingsManagerUITests;
+			sourceTree = "<group>";
+		};
+		EC483B351DC4DC0000918241 /* SystemSettingsManager */ = {
+			isa = PBXGroup;
+			children = (
+				EC483B361DC4DC0700918241 /* QLZ_SystemSettingsManager.h */,
+				EC483B371DC4DC0700918241 /* QLZ_SystemSettingsManager.m */,
+			);
+			path = SystemSettingsManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC483AFE1DC4DBD800918241 /* QLZ_SystemSettingsManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC483B2C1DC4DBD800918241 /* Build configuration list for PBXNativeTarget "QLZ_SystemSettingsManager" */;
+			buildPhases = (
+				EC483AFB1DC4DBD800918241 /* Sources */,
+				EC483AFC1DC4DBD800918241 /* Frameworks */,
+				EC483AFD1DC4DBD800918241 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QLZ_SystemSettingsManager;
+			productName = QLZ_SystemSettingsManager;
+			productReference = EC483AFF1DC4DBD800918241 /* QLZ_SystemSettingsManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC483B171DC4DBD800918241 /* QLZ_SystemSettingsManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC483B2F1DC4DBD800918241 /* Build configuration list for PBXNativeTarget "QLZ_SystemSettingsManagerTests" */;
+			buildPhases = (
+				EC483B141DC4DBD800918241 /* Sources */,
+				EC483B151DC4DBD800918241 /* Frameworks */,
+				EC483B161DC4DBD800918241 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC483B1A1DC4DBD800918241 /* PBXTargetDependency */,
+			);
+			name = QLZ_SystemSettingsManagerTests;
+			productName = QLZ_SystemSettingsManagerTests;
+			productReference = EC483B181DC4DBD800918241 /* QLZ_SystemSettingsManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC483B221DC4DBD800918241 /* QLZ_SystemSettingsManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC483B321DC4DBD800918241 /* Build configuration list for PBXNativeTarget "QLZ_SystemSettingsManagerUITests" */;
+			buildPhases = (
+				EC483B1F1DC4DBD800918241 /* Sources */,
+				EC483B201DC4DBD800918241 /* Frameworks */,
+				EC483B211DC4DBD800918241 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC483B251DC4DBD800918241 /* PBXTargetDependency */,
+			);
+			name = QLZ_SystemSettingsManagerUITests;
+			productName = QLZ_SystemSettingsManagerUITests;
+			productReference = EC483B231DC4DBD800918241 /* QLZ_SystemSettingsManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC483AF71DC4DBD800918241 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "张庆龙";
+				TargetAttributes = {
+					EC483AFE1DC4DBD800918241 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = TGTFTDLM8G;
+						ProvisioningStyle = Automatic;
+					};
+					EC483B171DC4DBD800918241 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC483AFE1DC4DBD800918241;
+					};
+					EC483B221DC4DBD800918241 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC483AFE1DC4DBD800918241;
+					};
+				};
+			};
+			buildConfigurationList = EC483AFA1DC4DBD800918241 /* Build configuration list for PBXProject "QLZ_SystemSettingsManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC483AF61DC4DBD800918241;
+			productRefGroup = EC483B001DC4DBD800918241 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC483AFE1DC4DBD800918241 /* QLZ_SystemSettingsManager */,
+				EC483B171DC4DBD800918241 /* QLZ_SystemSettingsManagerTests */,
+				EC483B221DC4DBD800918241 /* QLZ_SystemSettingsManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC483AFD1DC4DBD800918241 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC483B121DC4DBD800918241 /* LaunchScreen.storyboard in Resources */,
+				EC483B0F1DC4DBD800918241 /* Assets.xcassets in Resources */,
+				EC483B0D1DC4DBD800918241 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC483B161DC4DBD800918241 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC483B211DC4DBD800918241 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC483AFB1DC4DBD800918241 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC483B0A1DC4DBD800918241 /* ViewController.m in Sources */,
+				EC483B381DC4DC0700918241 /* QLZ_SystemSettingsManager.m in Sources */,
+				EC483B071DC4DBD800918241 /* AppDelegate.m in Sources */,
+				EC483B041DC4DBD800918241 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC483B141DC4DBD800918241 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC483B1D1DC4DBD800918241 /* QLZ_SystemSettingsManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC483B1F1DC4DBD800918241 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC483B281DC4DBD800918241 /* QLZ_SystemSettingsManagerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC483B1A1DC4DBD800918241 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC483AFE1DC4DBD800918241 /* QLZ_SystemSettingsManager */;
+			targetProxy = EC483B191DC4DBD800918241 /* PBXContainerItemProxy */;
+		};
+		EC483B251DC4DBD800918241 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC483AFE1DC4DBD800918241 /* QLZ_SystemSettingsManager */;
+			targetProxy = EC483B241DC4DBD800918241 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC483B0B1DC4DBD800918241 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC483B0C1DC4DBD800918241 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC483B101DC4DBD800918241 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC483B111DC4DBD800918241 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC483B2A1DC4DBD800918241 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC483B2B1DC4DBD800918241 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC483B2D1DC4DBD800918241 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = TGTFTDLM8G;
+				INFOPLIST_FILE = QLZ_SystemSettingsManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qlz.SystemSettingsManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC483B2E1DC4DBD800918241 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = TGTFTDLM8G;
+				INFOPLIST_FILE = QLZ_SystemSettingsManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qlz.SystemSettingsManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC483B301DC4DBD800918241 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QLZ_SystemSettingsManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "QLZ-.QLZ-SystemSettingsManagerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QLZ_SystemSettingsManager.app/QLZ_SystemSettingsManager";
+			};
+			name = Debug;
+		};
+		EC483B311DC4DBD800918241 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QLZ_SystemSettingsManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "QLZ-.QLZ-SystemSettingsManagerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QLZ_SystemSettingsManager.app/QLZ_SystemSettingsManager";
+			};
+			name = Release;
+		};
+		EC483B331DC4DBD800918241 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QLZ_SystemSettingsManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "QLZ-.QLZ-SystemSettingsManagerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QLZ_SystemSettingsManager;
+			};
+			name = Debug;
+		};
+		EC483B341DC4DBD800918241 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QLZ_SystemSettingsManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "QLZ-.QLZ-SystemSettingsManagerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QLZ_SystemSettingsManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC483AFA1DC4DBD800918241 /* Build configuration list for PBXProject "QLZ_SystemSettingsManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC483B2A1DC4DBD800918241 /* Debug */,
+				EC483B2B1DC4DBD800918241 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC483B2C1DC4DBD800918241 /* Build configuration list for PBXNativeTarget "QLZ_SystemSettingsManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC483B2D1DC4DBD800918241 /* Debug */,
+				EC483B2E1DC4DBD800918241 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC483B2F1DC4DBD800918241 /* Build configuration list for PBXNativeTarget "QLZ_SystemSettingsManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC483B301DC4DBD800918241 /* Debug */,
+				EC483B311DC4DBD800918241 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC483B321DC4DBD800918241 /* Build configuration list for PBXNativeTarget "QLZ_SystemSettingsManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC483B331DC4DBD800918241 /* Debug */,
+				EC483B341DC4DBD800918241 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC483AF71DC4DBD800918241 /* Project object */;
+}
