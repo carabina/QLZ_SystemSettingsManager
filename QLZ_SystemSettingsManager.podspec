@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
 s.name         = "QLZ_SystemSettingsManager"
-s.version      = "0.2.3"
+s.version      = "0.1"
 s.summary      = "iOS System Settings."
 s.homepage     = "https://github.com/qlz130514988/QLZ_SystemSettingsManager"
 s.license      = { :type => "MIT", :file => "LICENSE" }
